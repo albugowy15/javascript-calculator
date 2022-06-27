@@ -1,9 +1,8 @@
-import './App.css';
-
+import Calculator from "./components/Calculator";
 function App() {
   return (
-    <div className="App">
-    
+    <div className="p-10 h-screen flex justify-center items-center">
+      <Calculator />
     </div>
   );
 }
